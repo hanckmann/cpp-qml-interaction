@@ -26,7 +26,6 @@ ApplicationWindow {
     }
 
     // Create connections with c++
-    signal someQmlSignal()  // Define a custom signal
     Connections             // Define actions for custom slots
     {
         id:cppConnection
