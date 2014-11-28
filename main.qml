@@ -22,7 +22,6 @@ ApplicationWindow {
         onClicked: {
             // Default button signal
             testObject.someSlot("fn-call")
-            aw.someQmlSignal("signal")
         }
     }
 
